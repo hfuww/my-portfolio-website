@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div class="container content">
+    <div class="card custom-card mt-5">
+        <div class="card-body">
+            <center><h4 class="title">Welcome to my personal space!</h4></center>
+            <center><h4 class="title">Here’s a little more about who I am and what I do.</h4></center>
+
+            <div class="d-flex justify-content-center flex-wrap mt-4" style="gap:10px;">
+                <a href="#profile" class="btn custom-btn">PROFILE</a>
+                <a href="#about" class="btn custom-btn">ABOUT ME</a>
+                <a href="#experience" class="btn custom-btn">EXPERIENCE</a>
+                <a href="#skill" class="btn custom-btn">SKILL</a>
+                <a href="#interest" class="btn custom-btn">INTEREST</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" id = "profile">
+        <div class="card custom-card mt-3">
+            <div class="card-body">
+                <center><h4 class="title">PROFILE</h4></center>
+                <div class="row mt-4">
+                    <div class="col-md-4 text-center">
+                        <img src="profilepicture.jpg" class="rounded-image pop-effect" alt="" style="width: 105%; height:auto;">
+                        <h5 class="mt-4"><b>"I don’t make mistakes I just create unexpected features."</b></h5>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <input type="text" value="黃飛立 - Virlie Darius Yuva" class="form-control custom-input" readonly style="background-color: #AEC6CF;">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" value="2004/13/12 " class="form-control custom-input" readonly style="background-color: #AEC6CF;">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" value="Indonesia" class="form-control custom-input" readonly style="background-color: #AEC6CF;">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" value="中原大學 - 資訊管理" class="form-control custom-input" readonly style="background-color: #AEC6CF;">
+                        </div>
+                        <br>
+
+                        <div class="d-flex justify-content-left align-items-center flex-wrap">
+                            <a href="https://www.instagram.com/d.yvaaa?igsh=MTVicGc0bXByOGl5Yg%3D%3D&utm_source=qr" target="_blank">
+                                <img src="instagram.png" style="width: 30px; margin: 5px;" alt="">
+                            </a>
+                            <a href="https://www.tiktok.com/@hubbert_papanatas?_r=1&_t=ZS-91BRQ15zWY4" target="_blank">
+                                <img src="tiktok.png" style="width: 30px; margin: 5px;" alt="">
+                            </a>
+                            <a href="https://line.me/ti/p/wB-4KMagwo" target="_blank">
+                                <img src="line.png" style="width: 30px; margin: 5px;" alt="">
+                            </a>
+                            <a href="mailto:virliedoang@gmail.com" target="_blank">
+                                <img src="gmail.png" style="width: 30px; margin: 5px;" alt="">
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" id="about">
+  <div class="card custom-card mt-3">
+    <div class="card-body">
+      <center><h4 class="title">ABOUT ME</h4></center>
+      <div class="row mt-4">
+        <div class="col-md-4 text-center">
+          <img src="aboutme.jpg" class="rounded-image pop-effect" style="width:220px; height:220px; object-fit:cover;" alt="About Me">
+        </div>
+        <div class="col-md-8">
+          <p style="font-size:18px; line-height:1.7; text-align:justify;">
+            Hello! My name is <b>Virlie Darius Yuva</b>, but my friends call me <b>Virlie</b>.  
+            I’m a passionate <b>Information Management</b> student at <b>Chung Yuan Christian University</b>, Taiwan.  
+            I love learning about <b>technology, design, and creativity</b>.  
+            In my free time, I enjoy <b>exploring new things, and playing sports</b>.  
+            I believe that <i>hard work and consistency</i> always lead to success, no matter how small the steps are.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+    <div class="section" id="experience">
+        <div class="card custom-card mt-3">
+            <div class="card-body">
+                <center><h4 class="title">EXPERIENCE</h4></center>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="text-center">
+                            <span class="rounded-border title">learning experience</span>
+                        </div>
+                        <ul id="priview-ul" class="mt-4">
+                            <li>
+                                <div class="imageee1">
+                                        <h3><b>Elementary School</b></h3>
+                                </div>
+                                    <h6><i class="text-color">2008/07 - 2014/05</i></h6>
+                                    <h3><b> Jakarta, Indonesia</b></h3>
+                                    <h6 class="text-color">I study at Dharma Budi Bakti School.This was the happiest time of my life. Back then, I was a straight-A student. Interestingly, I started studying here from kindergarten.</h6>
+                            </li>
+                        </ul>
+                        <ul id="priview3-ul">
+                            <li class="mt-4">
+                                <div class="imageee2">
+                                    <h3><b>Junior High School</b></h3>
+                                </div>
+                                <h6><i class="text-color">2014/07 - 2017/5</i></h6>
+                                <h3><b>Jakarta, Indonesia</b></h3>
+                                <h6 class="text-color">I study at Mahatma Gandhi School.This was the time when I was very troublesome and my grades dropped drastically.</h6>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <div class="imageee1">
+                            <img src="sd.png" id="priview" class="image" style="width:220px; height:220px; object-fit:cover;" alt="">
+                        </div>
+                        <div class="imageee2">
+                            <img src="smp.jpeg" id="priview3" class="image"style="width:220px; height:220px; object-fit:cover;" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-1 text-center">
+                        <div class="vertical-divider1"></div> 
+                    </div>
+                    <div class="col-md-5">
+                        <div class="text-center">
+                            <span class="rounded-border title">learning experience</span>
+                        </div>
+                        <ul id="priview2-ul" class="mt-4">
+                            <li>
+                                <h3><b>High School</b></h3>
+                                <h6><i class="text-color">2017/07 - 2023/05</i></h6>
+                                <h3><b>Jakarta, Indonesia</b></h3>
+                                <h6 class="text-color">I study at Budi Mulia School.This is my time of maturity because I have left behind a lot of lessons and so on, I also realize that I have to start taking life seriously.</h6>
+                            </li>
+                            <br>
+                        </ul>
+                        <ul id="priview4-ul">
+                            <li>
+                                <h3><b>University</b></h3>
+                                <h6><i class="text-color">2024/09 - present</i></h6>
+                                <h3><b>中原大學 - 桃園，台灣</b></h3>
+                                <h6 class="text-color">My first year in taiwan was a strugle because my chinese not that good.Now I'm happy to be studying in the Information Management Department.</h6>
+                            </li>
+                        </ul>
+                        <br><br>
+                        <div class="text-center">
+                            <img src="bm.png" class="image" id="priview2" style="width:220px; height:220px; object-fit:cover;" alt="">
+                        </div>
+                        <div class="text-center">
+                            <img src="cycu.jpg" class="image" id="priview4" style="width:220px; height:220px; object-fit:cover;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="skill">
+        <div class="card custom-card mt-3">
+            <div class="card-body">
+                <center><h4 class="title">SKILLS</h4></center>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="text-center">
+                            <span class="rounded-border title">程式技能</span>
+                            <h3><b>Programming Skill</b></h3>
+                            <div class="mt-2">
+                                <br>
+                                <b class="progress-title">java</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 80%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <br>
+                                <b class="progress-title">python</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <br>
+                                <b class="progress-title">html</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 70%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <br>
+                                <b class="progress-title">css</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 70%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1 text-center">
+                        <div class="vertical-divider2"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="text-center">
+                            <span class="rounded-border title">專業技能</span>
+                            <h3><b>Professional Skill</b></h3>
+                            <div class="mt-2">
+    
+                                <br>
+                                <b class="progress-title">photoshop</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+    
+                                <br>
+                                <b class="progress-title">pro-create</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+    
+                                <br>
+                                <b class="progress-title">canva</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+    
+                                <br>
+                                <b class="progress-title">word/excel/ppt</b>
+                                <div class="progress mt-1">
+                                    <div class="progress-bar animate-progress" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id = "interest">
+        <div class="card custom-card mt-3">
+            <div class="card-body">
+                <center><h4 class="title">INTEREST</h4></center>
+                <div class="row mt-4">
+                    <div class="col-md-3 text-center">
+                        <img src="sport.jpg"  class="rounded-image pop-effect" style="width: 105%; margin-bottom: 13px;" alt="">
+                        <br class="mb-2">
+                        <h3><b>運動</b></h3>
+                        <h3><b>Sport</b></h3>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="food.jpg"  class="rounded-image pop-effect" style="width: 105%; margin-bottom: 13px;" alt="">
+                        <br class="mb-2">
+                        <h3><b>食物</b></h3>
+                        <h3><b>Food</b></h3>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="Hobby.jpg"  class="rounded-image pop-effect" style="width: 105%; margin-bottom: 13px;" alt="">
+                        <br class="mb-2">
+                        <h3><b>愛好</b></h3>
+                        <h3><b>Hobby</b></h3>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="season.jpg"  class="rounded-image pop-effect" style="width: 105%; margin-bottom: 13px;" alt="">
+                        <br class="mb-2">
+                        <h3><b>季節</b></h3>
+                        <h3><b>Season</b></h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+<footer>
+    <p class="mt-3">&copy; Copyrgiht @ 2025 Virlie Darius Yuva</p>
+</footer>
+
+<script>
+    $(document).ready(function() {
+        
+        $("a[href^='#']").click(function(event) {
+            event.preventDefault();  
+            
+            var target = $(this).attr("href");  
+            
+            
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 1000);  
+        });
+
+        
+        $(window).on('scroll', function() {
+            $('.section').each(function() {
+                var sectionOffset = $(this).offset().top;
+                var windowHeight = $(window).scrollTop() + $(window).height();
+
+                
+                if (windowHeight > sectionOffset + 100) {
+                    $(this).addClass('fade-in');  
+                }
+            });
+        });
+
+
+        
+        $('.progress-bar').click(function() {
+            var currentWidth = $(this).width();  
+            
+            
+            if (currentWidth < $(this).parent().width()) {
+                $(this).addClass('active');  
+            } else {
+                $(this).removeClass('active');  
+            }
+        });
+
+        
+        $(window).on('scroll', function() {
+            $('.progress-bar').each(function() {
+                var barOffset = $(this).offset().top;
+                var windowHeight = $(window).scrollTop() + $(window).height();
+                
+                if (windowHeight > barOffset + 100) {  
+                    $(this).addClass('active');
+                }
+            });
+        });
+
+        
+        const listItems = document.querySelectorAll("ul");
+        const preview1 = document.getElementById("priview");
+        const preview2 = document.getElementById("priview2");
+        const preview3 = document.getElementById("priview3");
+        const preview4 = document.getElementById("priview4");
+
+        
+        function hidePreview() {
+            preview1.style.display = 'none';
+            preview1.style.opacity = 0;
+            preview2.style.display = 'none';
+            preview2.style.opacity = 0;
+            preview3.style.display = 'none';
+            preview3.style.opacity = 0;
+            preview4.style.display = 'none';
+            preview4.style.opacity = 0;
+        }
+
+        
+        listItems.forEach(item => {
+            item.addEventListener("mouseenter", () => {
+                
+                if (item.id === 'priview-ul') {
+                    preview1.style.display = 'block';
+                    preview1.style.opacity = 1;
+                } else if (item.id === 'priview2-ul') {
+                    preview2.style.display = 'block';
+                    preview2.style.opacity = 1;
+                }else if (item.id === 'priview3-ul') {
+                    preview3.style.display = 'block';
+                    preview3.style.opacity = 1;
+                } else if (item.id === 'priview4-ul') {
+                    preview4.style.display = 'block';
+                    preview4.style.opacity = 1;
+                }
+            });
+
+            item.addEventListener("mouseleave", () => {
+                hidePreview(); 
+            });
+
+            item.addEventListener("click", () => {
+                
+                if (item.id === 'priview-ul') {
+                    preview1.style.display = 'block';
+                    preview1.style.opacity = 1;
+                } else if (item.id === 'priview2-ul') {
+                    preview2.style.display = 'block';
+                    preview2.style.opacity = 1;
+                }else if (item.id === 'priview3-ul') {
+                    preview3.style.display = 'block';
+                    preview3.style.opacity = 1;
+                } else if (item.id === 'priview4-ul') {
+                    preview4.style.display = 'block';
+                    preview4.style.opacity = 1;
+                }
+            });
+        });
+
+        
+        document.addEventListener('mousemove', (event) => {
+            if (!event.target.closest('li') && !event.target.closest('#priview') && !event.target.closest('#priview2') && !event.target.closest('#priview3') && !event.target.closest('#priview4')) {
+                hidePreview();
+            }
+        });
+
+        const progressBars = document.querySelectorAll('.progress-bar');
+
+        
+        progressBars.forEach(bar => {
+            
+            bar.parentElement.addEventListener('mouseenter', function () {
+                const value = bar.getAttribute('aria-valuenow');
+                
+                
+                bar.style.width = '0%'; 
+                setTimeout(() => {
+                    bar.style.width = value + '%';  
+                    bar.textContent = value + '%';  
+                }, 100); 
+            });
+
+            
+            bar.parentElement.addEventListener('mouseleave', function () {
+                bar.style.width = '0%';  
+                bar.textContent = '0%';  
+            });
+        });
+    });
+</script>
+</body>
+</html>
